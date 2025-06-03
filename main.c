@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include "funcoes.h"
 
+void menuInterface();
 int main()
 {
-	menuInterface();
+	   menuInterface();	
 	return 0;
 }

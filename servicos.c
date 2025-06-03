@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "funcoes.h"
+
 #define MAX_SERVICOS 10
+Servico servico[MAX_SERVICOS];
 int totalDeServicos = 0;
 
-Servico servico[MAX_SERVICOS];
 void adicionarServicos(){
 	system("cls");
 	
@@ -25,7 +26,7 @@ void adicionarServicos(){
 void listarServicos(){
 	system("cls");
 	if(totalDeServicos == 0 ){
-		printf("Nem um servico cadastrado");
+		printf("Nem um servico cadastrado\n");
 		return;
 	}
 	int i;

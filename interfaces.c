@@ -8,13 +8,17 @@ void menuInterface(){
 		printf("--        Oque deseja fazer?           --\n");
 		printf("1- Cadastrar cliente | 2- Agendar servico\n");
 		printf("3- Listar clientes  | 4- Adicionar servico\n");
-		printf("5- Listar Servicos  | 6- Sair\n");
+		printf("5- Listar Servicos  | 6- Imprimir\n");
+		printf("7- Sair\n");
 		scanf("%d", &opcao);
 
     switch (opcao){
         case 1:  
         	cadastroDeCliente();
             break;
+        case 2:
+        	agendamento();
+        	break;
         case 3:
         	listarClientes();
         	break;
@@ -26,11 +30,14 @@ void menuInterface(){
 			break;	
         case 6:
             printf("Saindo....\n");
-            break;  
+            break;
+		case 7:
+			printf("saindo..."); 
+			break; 
         default:
             printf("opcao invalida");
             break;
     }
         
-	} while (opcao != 6);
+	} while (opcao != 7);
 }

@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include "funcoes.h"
 #define MAX_CLIENTES 100
-int totalDeClientes = 0;
+
 
 Cliente clienteNovo[MAX_CLIENTES];
+int totalDeClientes = 0;
 
 void cadastroDeCliente(){
 	system("cls");
