@@ -34,5 +34,3 @@ void listarClientes(){
 		printf("Nome: %s \t Telefone: %d\n",clienteNovo[i].nome,clienteNovo[i].telefone);
 	}
 }
-
-

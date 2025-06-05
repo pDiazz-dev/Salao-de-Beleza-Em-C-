@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="clientes.c" Top="Yes" Tabpos="1" TopLine="1">
+			<Cursor Line="34" Column="14"/>
+		</File>
+		<File Name="funcoes.h" Top="No" Tabpos="2" TopLine="10">
+			<Cursor Line="40" Column="8"/>
+		</File>
+		<File Name="agendamento.c" Top="No" Tabpos="3" TopLine="4">
+			<Cursor Line="51" Column="6"/>
+		</File>
+		<File Name="interfaces.c" Top="No" Tabpos="4" TopLine="1">
+			<Cursor Line="10" Column="46"/>
+		</File>
+		<File Name="main.c" Top="No" Tabpos="5" TopLine="1">
+			<Cursor Line="10" Column="2"/>
+		</File>
+		<File Name="servicos.c" Top="No" Tabpos="6" TopLine="1">
+			<Cursor Line="17" Column="7"/>
+		</File>
+	</Files>
+</Layout>

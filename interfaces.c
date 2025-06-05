@@ -29,7 +29,8 @@ void menuInterface(){
 			listarServicos();
 			break;	
         case 6:
-            printf("Saindo....\n");
+            printf("Salvando...\n");
+            
             break;
 		case 7:
 			printf("saindo..."); 

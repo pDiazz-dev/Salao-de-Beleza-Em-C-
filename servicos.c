@@ -19,7 +19,7 @@ void adicionarServicos(){
 	scanf("%49s", servico[totalDeServicos].nomeDoServico);
 	printf("Numero do servico: ");
 	scanf("%d", &servico[totalDeServicos].numeroDoServico);
-	printf("Cliente %s cadastrado com o numero %d.\n", servico[totalDeServicos].nomeDoServico, servico[totalDeServicos].numeroDoServico);
+	printf("Servico %s cadastrado com o numero %d.\n", servico[totalDeServicos].nomeDoServico, servico[totalDeServicos].numeroDoServico);
 	totalDeServicos++;
 }
 

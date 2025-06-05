@@ -7,11 +7,30 @@ typedef struct
 	char nome[50];
 	int telefone;
 } Cliente;
+
+
 typedef struct 
 {
+	
 	char nomeDoServico[60];
 	int numeroDoServico;
+	
 } Servico;
+
+
+typedef struct 
+{
+	char nomeDocliente[50];
+	char nomeDoServico[60];
+	char profissional[50];
+	char dataDoAgendamento[20];
+	int valorDoServico;
+	int telefone;
+	int numDoServico;
+	
+}EstruturaDaAgenda;
+
+
 
 // FUNÇÕES NECESSARIAS PARA O MENUINTERFACE
 void menuInterface();
@@ -20,6 +39,7 @@ void adicionarServicos();
 void listarClientes();
 void listarServicos();
 void agendamento();
+
 //EXTERNS PARA UTILIZAR ARRAYS EM OUTROS ARQUIVOS
 
 #define MAX_CLIENTES 100
@@ -31,5 +51,9 @@ extern int totalDeClientes;
 
 extern Servico servico[MAX_SERVICOS];
 extern int totalDeServicos;
+
+#define MAX_AGENDAMENTOS 10
+	extern EstruturaDaAgenda agendar[MAX_AGENDAMENTOS];
+	extern int totalAgendamentos;
 
 #endif
