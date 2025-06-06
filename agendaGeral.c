@@ -70,16 +70,7 @@ void agendamento(){
 	scanf("%d", &agendar[totalAgendamentos].valorDoServico);
 	
 	system("cls");
-    printf("======== CONFIRMAÇÃO DE AGENDAMENTO ========\n");
-    printf("Nome do cliente.............. %s\n", agendar[totalAgendamentos].nomeDocliente );
-    printf("Telefone do cliente.......... %d\n", agendar[totalAgendamentos].telefone);
-    printf("Nome do servico.............. %s\n", agendar[totalAgendamentos].nomeDoServico);
-    printf("Número do servico............ %d\n", agendar[totalAgendamentos].numDoServico);
-    printf("Profissional................. %s\n", agendar[totalAgendamentos].profissional);
-    printf("Data do agendamento.......... %s\n", agendar[totalAgendamentos].dataDoAgendamento);
-    printf("Valor do serviço............. R$ %d,00\n", agendar[totalAgendamentos].valorDoServico);
-    printf("============================================\n");
-	
+    
 	
 	totalAgendamentos++;
 	

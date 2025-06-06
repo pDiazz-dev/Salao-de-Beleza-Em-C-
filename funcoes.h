@@ -39,6 +39,7 @@ void adicionarServicos();
 void listarClientes();
 void listarServicos();
 void agendamento();
+void imprimir();
 
 //EXTERNS PARA UTILIZAR ARRAYS EM OUTROS ARQUIVOS
 

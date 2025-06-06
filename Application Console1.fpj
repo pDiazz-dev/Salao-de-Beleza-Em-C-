@@ -34,6 +34,7 @@
 		<File Name="servicos.c"/>
 		<File Name="funcoes.h"/>
 		<File Name="clientes.c"/>
-		<File Name="agendamento.c"/>
+		<File Name="agendaGeral.c"/>
+		<File Name="imprimir.c"/>
 	</Files>
 </Project>

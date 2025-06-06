@@ -15,25 +15,30 @@ void menuInterface(){
     switch (opcao){
         case 1:  
         	cadastroDeCliente();
+        	printf("CLIENTE CADASTRADO COM SUCESSO!\n");
             break;
         case 2:
         	agendamento();
+        	printf("AGENDAMENTO FEITO COM SUCESSO!\n");
         	break;
         case 3:
         	listarClientes();
         	break;
 	  	case 4:
 		  	adicionarServicos();
+		  	printf("SERVICO ADCIONADO COM SUCESSO!\n");
 			break;
 		case 5:
 			listarServicos();
 			break;	
         case 6:
-            printf("Salvando...\n");
-            
+        	imprimir();
+        	printf("SALVANDO ARQUIVO...");
+        	system("cls");
+        	printf("ARQUIVO SALVO COM SUCESSO!\n");
             break;
 		case 7:
-			printf("saindo..."); 
+			printf("Saindo... OBRIGADO POR UTILIZAR"); 
 			break; 
         default:
             printf("opcao invalida");
